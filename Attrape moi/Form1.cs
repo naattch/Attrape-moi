@@ -95,6 +95,7 @@ namespace Attrape_moi
                 {
                     textBox1.Text = sr.ReadLine();
                     label2.Text = sr.ReadLine();
+                    i = Convert.ToInt32(label2.Text);
 
                 }
         }
